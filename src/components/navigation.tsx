@@ -5,8 +5,7 @@ import { useState } from 'react';
 
 export default function Navigation() {
   const path = usePathname();
-  const [count, setCount] = useState(0);
-  console.log(path);
+
   return (
     <nav>
       <ul>
@@ -17,7 +16,6 @@ export default function Navigation() {
           <Link href='/about-us'>About Us</Link>
         </li>
       </ul>
-      <button onClick={() => setCount((c) => c + 1)}>{count}</button>
     </nav>
   );
 }

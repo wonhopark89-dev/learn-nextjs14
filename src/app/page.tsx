@@ -1,5 +1,5 @@
 import Navigation from '@/components/navigation';
 
 export default function Home() {
-  return <Navigation />;
+  return <div>Hello</div>;
 }
